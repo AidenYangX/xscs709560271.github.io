@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/jquery.mobile.external-png-1.4.5.min.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+    <div data-role="page">
+        <div data-role="header" data-position="fixed">
+            <a href="index.html" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">首页</a>
+            <h1>注册</h1>
+            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-search ui-btn-icon-left">注册</a>
+        </div>
+        <!--主体部分-->
+        <h1>C#结构</h1>
+        <pre>using System;
+namespace HelloWorldApplication
+{
+   class HelloWorld
+   {
+      static void Main(string[] args)
+      {
+         /* &#x6211;&#x7684;&#x7B2C;&#x4E00;&#x4E2A; C# &#x7A0B;&#x5E8F;*/
+         Console.WriteLine("Hello World");
+         Console.ReadKey();
+      }
+   }
+}
+        </pre>
+        <hr>
+        <h6>程序的第一行 using System; - using 关键字用于在程序中包含 System 命名空间。 一个程序一般有多个 using 语句。</h6>
+        <h6>下一行是 namespace 声明。一个 namespace 是一系列的类。HelloWorldApplication 命名空间包含了类 HelloWorld。</h6>
+        <h6>下一行是 class 声明。类 HelloWorld 包含了程序使用的数据和方法声明。类一般包含多个方法。方法定义了类的行为。在这里，HelloWorld 类只有一个 Main 方法。</h6>
+        <h6>下一行定义了 Main 方法，是所有 C# 程序的 入口点。Main 方法说明当执行时 类将做什么动作。</h6>
+        <h6>下一行 /*...*/ 将会被编译器忽略，且它会在程序中添加额外的 注释。</h6>
+        <h6>Main 方法通过语句 Console.WriteLine("Hello World"); 指定了它的行为。</h6>
+        <h6>最后一行 Console.ReadKey(); 是针对 VS.NET 用户的。这使得程序会等待一个按键的动作，防止程序从 Visual Studio .NET 启动时屏幕会快速运行并关闭。</h6>
+        <hr>
+        在C#中需要注意的:
+        <ul>
+            <li>
+                C# 是大小写敏感的。
+            </li>
+            <li>
+                所有的语句和表达式必须以分号（;）结尾。
+            </li>
+            <li>
+               程序的执行从 Main 方法开始。
+            </li>
+            <li>
+                与 Java 不同的是，文件名可以不同于类的名称。
+            </li>
+            
+        </ul>
+            
+        
+    
+
+        <div data-role="footer" data-position="fixed" data-theme="b">
+        </div>
+    </div>
+
+
+</body>
+
+</html>
